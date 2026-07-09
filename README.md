@@ -328,11 +328,5 @@ This is a 1B model. Here's what that actually means in practice:
 | Fine-tune | Community `agentic-tool-use` LoRA adapter on HuggingFace |
 | Inference | [LM Studio](https://lmstudio.ai/) — local model runner |
 
----
 
-## 📜 License
-
-This repo's code is provided as-is for educational purposes. The model itself is licensed under Apache 2.0 by OpenBMB. See the [model card](https://huggingface.co/openbmb/MiniCPM-o-2_6) for full details.
-
----
 
