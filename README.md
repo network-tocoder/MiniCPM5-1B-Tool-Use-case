@@ -319,43 +319,6 @@ This is a 1B model. Here's what that actually means in practice:
 
 **The bottom line:** The intelligence is in the **routing**, not the **knowledge**. You can always fix a knowledge gap with a better prompt or a reference list. But the routing layer — knowing *when* to call a tool and *which* one — that's the hard part. And this 1 GB model can do it.
 
----
-
-## 🤔 FAQ
-
-**Q: Does this need a GPU?**
-No. Runs on CPU. 16 GB RAM is plenty. The Q8 model is 1.15 GB.
-
-**Q: Can I use this commercially?**
-Yes. The base MiniCPM-o 2.6 model is Apache 2.0. The fine-tune is from the community (check the specific model card for its license).
-
-**Q: How is this different from just using GPT-4 with tool calling?**
-Privacy, cost, and latency. Your data never leaves your machine. No API costs. No internet required. The tradeoff is you get 1B parameters of intelligence instead of ~1.8 trillion.
-
-**Q: Can I add my own tools?**
-Absolutely. Define your tool in the OpenAI function-calling format, add it to the `tools` array in any script, and the model will route to it. That's the whole point.
-
-**Q: Why not just use a bigger local model?**
-You can. But bigger models are slower, use more RAM, and often *still* try to answer from memory instead of calling tools. The 1B model's restraint is the feature — it knows its limits and reaches for help.
-
-**Q: Isn't the code doing the real work? How is the model "intelligent" if we're just giving it tools?**
-Great question (a viewer actually asked this). The code defines *which* tools exist — the model doesn't discover those on its own. But the model decides *when* to use a tool and *what arguments* to pass. In the meeting notes demo, we gave it a wall of text — the model decided on its own to call `create_action_item` four times with the right names, deadlines, and priorities. We didn't tell it to do that. It's a partnership: the developer provides the tools, the model provides the judgment. Neither is intelligent alone.
-
----
-
-## 💬 Community Discussion
-
-This repo was built alongside a [YouTube video](https://www.youtube.com/@bibhudas9329) that sparked some genuine conversations. Here are real questions from viewers:
-
-> **@bibhudas9329** — *"If we are guiding agents through code to get deterministic answers, then how is the model intelligent? Rather the wrapper is serving as the intelligence layer. How does this solve the intelligence issue for non-tech folks?"*
-
-The honest answer: it's a partnership. The developer provides the tools, the model provides the judgment. Think of it like a smart manager — they don't know every specialty, but they know exactly who to assign each task to. The model decides *when* to call a tool and *what arguments* to pass. That decision-making is the intelligence. For non-tech folks, the vision is that this gets baked into apps and devices invisibly — you just interact naturally and the tiny model handles the routing behind the scenes.
-
-> **@RuneDShyznit** — *"Love how fast small models are advancing. Sometimes bigger isn't always better."*
-
-Exactly. A year ago, 1B models were basically useless. Now they're routing tool calls on a CPU laptop. The pace of progress in the small model space is remarkable, and the cognitive core approach is a big part of why.
-
----
 
 ## 📎 Model Credits
 
@@ -373,4 +336,3 @@ This repo's code is provided as-is for educational purposes. The model itself is
 
 ---
 
-*Built as a companion to the [YouTube video](https://www.youtube.com/@bibhudas9329). If you found this useful, consider subscribing — it really helps.*
