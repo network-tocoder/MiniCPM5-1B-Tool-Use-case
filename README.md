@@ -14,20 +14,11 @@
 
 **"Why a 1B Model Is All You Need for Local AI Agents"**
 
-[![Watch on YouTube](https://img.shields.io/badge/▶_Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@bibhudas9329)
+[![Watch on YouTube](https://img.shields.io/badge/▶_Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lsCOkUZxGXw)
 
 > A one billion parameter model just refused to do math — and called a calculator instead. No GPU. No cloud. Just a CPU and a model that's barely one gig in size.
 
-| Timestamp | Chapter |
-|-----------|---------|
-| 0:00 | A 1B model refuses to do math (and that's the point) |
-| 1:10 | Setup in LM Studio |
-| 3:00 | The calculator test that changes everything |
-| 5:00 | Building a Smart CLI Assistant |
-| 7:30 | Meeting Notes → Action Items |
-| 10:00 | Why this 1B model is different (the science) |
-| 13:00 | Where local AI is heading |
-| 14:30 | Final thoughts |
+
 
 ---
 
