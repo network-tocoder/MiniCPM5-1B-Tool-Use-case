@@ -12,7 +12,7 @@
 
 ## 📺 Watch the Full Video
 
-**"Why a 1B Model Is All You Need for Local AI Agents"**
+**Why a 1B Model Is All You Need for Local AI Agents**
 
 [![Watch on YouTube](https://img.shields.io/badge/▶_Watch_on_YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=lsCOkUZxGXw)
 
